@@ -75,35 +75,39 @@
     padding-top: 70px;
     border-spacing: 20px;
     padding-bottom: 40px;
-}
-
-.how-can-we-help .row{
 
 }
 .how-can-we-help .planning{
-
     max-width: 360px;
     height: 375px;
     width: 353px;
     border: 0px solid #8d8d8d;
+    padding-top: 80px;
 }
-
+.how-can-we-help .planning .anh1{
+    margin: 0 auto;
+    display: block;
+}
 .how-can-we-help .home{
 
     max-width: 360px;
     border: 0px solid #8d8d8d;
     box-shadow: 30px 30px 30px #f0efef;
+    padding-top: 80px;
 }
-
+.how-can-we-help .home .anh2{
+    margin: 0 auto;
+    display: block;
+}
 .how-can-we-help .drop{
     max-width: 360px;
     border: 0px solid #8d8d8d;
+    padding-top: 80px;
 }
-
-.how-can-we-help .planning i{
-    vertical-align: middle;
+.how-can-we-help .drop .anh3{
+    margin: 0 auto;
+    display: block;
 }
-
 .how-can-we-help  p{
    text-align: center;
     color: #b5b5b5;
@@ -111,14 +115,18 @@
     line-height: 2;
 
 }
-
-
-
 .how-can-we-help h5{
     text-align: center;
     color: #333333;
 }
-/*our designer css*/
+
+/*
+    end how can we help css
+*/
+
+/*
+    our designer css
+*/
 
 .intro  {
     padding: 30px 0;
@@ -200,36 +208,123 @@
 .subcriber{
     background-image: linear-gradient(to right, #ff7b38 , #f9915c);
     color: white;
-    padding: 100px 25px;
+
+    width: auto;
+    height: 360px;
 }
 .subcriber h5{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 .subcriber p{
-    font-size: 80px;
+    font-size: 220px;
+    position: relative;
     text-align: center;
     width: auto;
-    z-index: -1;
-}
-.subcriber form{
-    padding-left: 400px;
-}
-.subcriber input[type="email"]{
-    border-radius: 32px;
-    margin: 0 10px;
-    width: 400px;
-    height: 50px;
-}
+    color: #f5f2f1;
+    opacity: 0.15;
+    filter: alpha(opacity=15);
+    letter-spacing: -5px;
 
-.subcriber button[type="button"]{
-    border-radius: 32px;
-    color: white;
-    background-color: #f48146;
-    border: 1px solid #f48146;
-    width: 160px;
-    height: 50px;
 }
+.subcriber .dn{
+    position: absolute;
+    bottom: -2500px;
+    left: 350px;
+}
+.subcriber input[type="text"] {
+    width: 480px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-radius: 32px;
+    outline:none;
+    padding: 12px 14px;
+    background-color: #f3f2f2;
+}
+.subcriber  a{
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: 180px;
+    padding: 10px 20px;
+    border-radius: 32px;
+    text-align: center;
+}
+/*
+    end subcriber css
+*/
+
+/*
+    top header css
+*/
+.top-header{
+    padding: 100px 0;
+}
+.top-header .img1{
+    width: 615px;
+    height: 440px;
+    position: relative;
+    border: 10px solid white;
+    box-shadow: 30px 30px 30px #f0efef;
+}
+.top-header .img2{
+    width: 297px;
+    height: 210px;
+    position: absolute;
+    border: 7px solid white;
+    box-shadow: 30px 30px 30px #f0efef;
+    top: 280px;
+    right: 120px;
+}
+.top-header .makedream .dream{
+    font-size: 30px;
+    color: black;
+    max-width: 200px;
+
+}
+.top-header .makedream span{
+    color: #f66c27;
+    word-spacing: 60px; /*định dạng khoảng cách từ*/
+    font-size: 20px;
+}
+.top-header .makedream p{
+    color: #b5b5b5;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.top-header .makedream a{
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+/*
+   end top header css
+*/
+
+/*
+    testimonial css
+*/
+.testimonial{
+    background-color: #f8f8f8;
+    text-align: center;
+    height: 560px;
+    width: auto;
+    padding-top: 120px;
+}
+.testimonial .bring{
+    color: #b5b5b5;
+    font-size: 12px;
+}
+.testimonial .serian{
+
+}
+/*
+   end testimonial css
+*/
     /*footer css*/
 footer{
     /*chuyển đổi màu cho nhau*/
