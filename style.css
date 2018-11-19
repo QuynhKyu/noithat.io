@@ -329,6 +329,18 @@
     color: #f66c27;
 
 }
+.testimonial input[value = ""]{
+    padding:3px;
+    height:3px;
+    border:0;
+    margin:0;
+}
+.testimonial input[name = "submit1"]{
+   backfround-color:#fb8b52;
+}
+.testimonial input[name = "submit"]{
+   backfround-color:#888888;
+}
 /*
    end testimonial css
 */
